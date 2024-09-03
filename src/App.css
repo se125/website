@@ -1,0 +1,28 @@
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.conatiner1{
+  @apply w-[80%] mx-auto
+}
+.row{
+  @apply flex flex-wrap
+}
+
+.product{
+  overflow: hidden;
+}
+.btn{
+  transform: translateY(200%);
+  transition: all 0.5s;
+}
+.product:hover .btn{
+  transform: translateY(0%);
+}
+.active{
+  @apply text-emerald-700
+}
